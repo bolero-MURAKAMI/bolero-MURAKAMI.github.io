@@ -29,59 +29,74 @@
 	</script>
 	<!-- end Google Analytics -->
 </head>
-<body>
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+
+<body style="padding-bottom: 40px;" role="document">
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="brand" href="./index.html">Bolero's website</a>
-				<div class="nav-collapse collapse">
-					<ul class="nav">
-						<li class="active"><a href="./index.html">Home</a></li>
-						<li><a href="http://bolero-murakami.github.io/Sprout/">Sprout C++ Libraries</a></li>
-						<li><a href="http://bolero-murakami.github.io/KTL/">KTL (KiriKiri Trivial Libraries)</a></li>
-					</ul>
-				</div>
+				<a class="navbar-brand" href="./index.html">Bolero's website</a>
 			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="./index.html">Home</a></li>
+					<li><a href="http://bolero-murakami.github.io/Sprout/">Sprout C++ Libraries</a></li>
+					<li><a href="http://bolero-murakami.github.io/KTL/">KTL (KiriKiri Trivial Libraries)</a></li>
+					<li class="divider"></li>
+				</ul>
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="http://dark-constexpr.github.io/" target="_blank">The Dark constexpr <font color="silver">&raquo;</font></a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
 		</div>
 	</div>
 
-	<div class="container" style="padding-top: 60px; padding-bottom: 40px;">
-		<div class="hero-unit">
+	<div class="container" style="padding-top: 60px; padding-bottom: 40px;" role="main">
+		<div class="page-header">
 			<h1>This is Chu3Joshi.</h1>
-
-			<h2><font color="dimgray">constexpr <font color="orangered">+</font> YOU, COMPILE TODAY!</font></h2>
-			<p>
-				C++11/14 constexpr based libraries.<br />
-				<a href="http://bolero-murakami.github.io/Sprout/" class="btn btn-primary btn-large">Sprout C++ Libraries &raquo;</a>
-			</p>
-
-			<h2><font color="hotpink">Develop an Eroge with KiriKiri!</font></h2>
-			<p>
-				Extension libraries for Kirikiri2/KirikiriZ.<br />
-				<a href="http://bolero-murakami.github.io/KTL/" class="btn btn-primary btn-large">KTL (KiriKiri Trivial Libraries) &raquo;</a>
-			</p>
 		</div>
 
 		<div class="row">
-			<div class="span6 text-center">
-				<h1>The Dark constexpr</h1>
+			<div class="col-md-6">
+				<h2><font color="dimgray">constexpr <font color="orangered">+</font> YOU, COMPILE TODAY!</font></h2>
 				<p>
-					<a href="http://dark-constexpr.github.io/" target="_blank"><img name="暗黒定数式" src="http://dark-constexpr.github.io/assets/images/links/dark-constexpr-banner.gif" width="200" height="40" alt="暗黒定数式" /></a><br />
+					<a href="http://bolero-murakami.github.io/Sprout/" class="btn btn-primary"><span class="lead">Sprout C++ Libraries &raquo;</span></a><br />
+					C++11/14 constexpr based libraries.
+				</p>
+			</div>
+
+			<div class="col-md-6">
+				<h2><font color="hotpink">Develop an Eroge with KiriKiri!</font></h2>
+				<p>
+					<a href="http://bolero-murakami.github.io/KTL/" class="btn btn-primary"><span class="lead">KTL (KiriKiri Trivial Libraries) &raquo;</span></a><br />
+					Extension libraries for Kirikiri2/KirikiriZ.
+				</p>
+			</div>
+		</div>
+		<br />
+
+		<div class="row">
+			<div class="col-md-6">
+				<h2>The Dark constexpr</h2>
+				<p>
+					<a href="http://dark-constexpr.github.io/" target="_blank"><img name="暗黒定数式" src="http://dark-constexpr.github.io/assets/images/links/dark-constexpr-banner.gif" width="200" height="40" alt="暗黒定数式" /><span class="lead"> &raquo;</span></a><br />
 					<span class="lead">Vol.1 will be issued in 2014/11/24</span><br />
 					(A magazine of science fiction novels)
 				</p>
 			</div>
 		</div>
+		<br />
 
 		<h3>Author</h3>
 		<p>Bolero MURAKAMI <a href="mailto:contact-lib@boleros.x0.com">(E-Mail)</a></p>
 		<div class="row">
-			<div class="span6">
+			<div class="col-md-6">
 				<table class="table">
 					<tbody>
 						<tr>
@@ -96,7 +111,7 @@
 			</div>
 		</div>
 		<div id="footer">
-			<p class="muted credit">Copyright (C) 2013-2014 Bolero MURAKAMI.</p>
+			<p class="text-muted">Copyright (C) 2013-2014 Bolero MURAKAMI.</p>
 		</div>
 	</div>
 </body>
