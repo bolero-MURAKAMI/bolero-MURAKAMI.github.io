@@ -11,10 +11,11 @@
 	<meta name="Author" content="Bolero MURAKAMI" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
 	<link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap-responsive.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="./assets/bootstrap/css/bootstrap.min.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="./assets/bootstrap/css/bootstrap-theme.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/boleros.css" media="screen, projection" />
 	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
-	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./assets/bootstrap/js/bootstrap.min.js"></script>
 
 	<!-- Google Analytics -->
 	<script type="text/javascript">
@@ -30,7 +31,7 @@
 	<!-- end Google Analytics -->
 </head>
 
-<body style="padding-bottom: 40px;" role="document">
+<body class="boleros-body" style="padding-bottom: 40px;" role="document">
 	<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container">
@@ -57,61 +58,63 @@
 		</div>
 	</div>
 
-	<div class="container" style="padding-top: 60px; padding-bottom: 40px;" role="main">
-		<div class="page-header">
-			<h1>This is Chu3Joshi.</h1>
-		</div>
-
-		<div class="row">
-			<div class="col-md-6">
-				<h2><font color="dimgray">constexpr <font color="orangered">+</font> YOU, COMPILE TODAY!</font></h2>
-				<p>
-					<a href="http://bolero-murakami.github.io/Sprout/" class="btn btn-primary"><span class="lead">Sprout C++ Libraries &raquo;</span></a><br />
-					C++11/14 constexpr based libraries.
-				</p>
+	<div class="container boleros-back" style="padding-top: 60px; padding-bottom: 40px;" role="main">
+		<div class="boleros-offset">
+			<div class="page-header">
+				<h1>This is Chu3Joshi.</h1>
 			</div>
 
-			<div class="col-md-6">
-				<h2><font color="hotpink">Develop an Eroge with KiriKiri!</font></h2>
-				<p>
-					<a href="http://bolero-murakami.github.io/KTL/" class="btn btn-primary"><span class="lead">KTL (KiriKiri Trivial Libraries) &raquo;</span></a><br />
-					Extension libraries for Kirikiri2/KirikiriZ.
-				</p>
-			</div>
-		</div>
-		<br />
+			<div class="row">
+				<div class="col-md-6">
+					<h2><font color="dimgray">constexpr <font color="orangered">+</font> YOU, COMPILE TODAY!</font></h2>
+					<p>
+						<a href="http://bolero-murakami.github.io/Sprout/" class="btn btn-primary"><span class="lead">Sprout C++ Libraries &raquo;</span></a><br />
+						C++11/14 constexpr based libraries.
+					</p>
+				</div>
 
-		<div class="row">
-			<div class="col-md-6">
-				<h2>The Dark constexpr</h2>
-				<p>
-					<a href="http://dark-constexpr.github.io/" target="_blank"><img name="暗黒定数式" src="http://dark-constexpr.github.io/assets/images/links/dark-constexpr-banner.gif" width="200" height="40" alt="暗黒定数式" /><span class="lead"> &raquo;</span></a><br />
-					<span class="lead">Vol.1 will be issued in 2014/11/24</span><br />
-					(A magazine of science fiction novels)
-				</p>
+				<div class="col-md-6">
+					<h2><font color="hotpink">Develop an Eroge with KiriKiri!</font></h2>
+					<p>
+						<a href="http://bolero-murakami.github.io/KTL/" class="btn btn-primary"><span class="lead">KTL (KiriKiri Trivial Libraries) &raquo;</span></a><br />
+						Extension libraries for Kirikiri2/KirikiriZ.
+					</p>
+				</div>
 			</div>
-		</div>
-		<br />
 
-		<h3>Author</h3>
-		<p>Bolero MURAKAMI <a href="mailto:contact-lib@boleros.x0.com">(E-Mail)</a></p>
-		<div class="row">
-			<div class="col-md-6">
-				<table class="table">
-					<tbody>
-						<tr>
-							<td><a href="https://twitter.com/bolero_MURAKAMI" target="_blank">Twitter</a></td>
-							<td><a href="http://www.facebook.com/genya.murakami" target="_blank">Facebook</a></td>
-							<td><a href="http://boleros.hateblo.jp/" target="_blank">Blog</a></td>
-							<td><a href="https://github.com/bolero-MURAKAMI" target="_blank">Github</a></td>
-							<td><a href="http://www.slideshare.net/GenyaMurakami" target="_blank">SlideShare</a></td>
-						</tr>
-					</tbody>
-				</table>
+			<div class="row">
+				<div class="col-md-6">
+					<h2>The Dark constexpr</h2>
+					<p>
+						<a href="http://dark-constexpr.github.io/" target="_blank"><img name="暗黒定数式" src="http://dark-constexpr.github.io/assets/images/links/dark-constexpr-banner.gif" width="200" height="40" alt="暗黒定数式" /><span class="lead"> &raquo;</span></a><br />
+						<span class="lead">Vol.1 will be issued in 2014/11/24</span><br />
+						(A magazine of science fiction novels)
+					</p>
+				</div>
 			</div>
-		</div>
-		<div id="footer">
-			<p class="text-muted">Copyright (C) 2013-2014 Bolero MURAKAMI.</p>
+
+			<br />
+
+			<h3>Author</h3>
+			<p>Bolero MURAKAMI <a href="mailto:contact-lib@boleros.x0.com">(E-Mail)</a></p>
+			<div class="row">
+				<div class="col-md-6">
+					<table class="table">
+						<tbody>
+							<tr>
+								<td><a href="https://twitter.com/bolero_MURAKAMI" target="_blank">Twitter</a></td>
+								<td><a href="http://www.facebook.com/genya.murakami" target="_blank">Facebook</a></td>
+								<td><a href="http://boleros.hateblo.jp/" target="_blank">Blog</a></td>
+								<td><a href="https://github.com/bolero-MURAKAMI" target="_blank">Github</a></td>
+								<td><a href="http://www.slideshare.net/GenyaMurakami" target="_blank">SlideShare</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="footer">
+				<p class="text-muted">Copyright (C) 2013-2014 Bolero MURAKAMI.</p>
+			</div>
 		</div>
 	</div>
 </body>
